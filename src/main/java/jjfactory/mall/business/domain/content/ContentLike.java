@@ -18,4 +18,8 @@ public class ContentLike extends BaseTimeEntity {
 
     @Enumerated(EnumType.STRING)
     private DeleteStatus deleteStatus;
+
+    public void delete() {
+        this.deleteStatus = DeleteStatus.Y;
+    }
 }

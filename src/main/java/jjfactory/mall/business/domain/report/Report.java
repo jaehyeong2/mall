@@ -1,4 +1,4 @@
-package jjfactory.mall.business.domain.repory;
+package jjfactory.mall.business.domain.report;
 
 import jjfactory.mall.business.domain.BaseTimeEntity;
 import jjfactory.mall.business.domain.DeleteStatus;
@@ -27,4 +27,8 @@ public class Report extends BaseTimeEntity {
 
     @Enumerated(EnumType.STRING)
     private DeleteStatus deleteStatus;
+
+    public void delete() {
+        this.deleteStatus = DeleteStatus.Y;
+    }
 }

@@ -18,4 +18,8 @@ public class ClothesInfo extends BaseTimeEntity {
 
     @Enumerated(EnumType.STRING)
     private DeleteStatus deleteStatus;
+
+    public void delete() {
+        this.deleteStatus = DeleteStatus.Y;
+    }
 }

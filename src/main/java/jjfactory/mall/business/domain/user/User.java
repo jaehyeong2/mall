@@ -42,4 +42,8 @@ public class User extends BaseTimeEntity {
         this.address = address;
         this.deleteStatus = deleteStatus;
     }
+
+    public void delete() {
+        this.deleteStatus = DeleteStatus.Y;
+    }
 }
