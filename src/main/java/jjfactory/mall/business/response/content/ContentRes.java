@@ -1,4 +1,4 @@
-package jjfactory.mall.business.response.comment;
+package jjfactory.mall.business.response.content;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,8 +7,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class CommentRes {
-    private Long commentId;
+public class ContentRes {
+    private Long contentId;
     private Long userId;
+    private String title;
     private String content;
+
 }

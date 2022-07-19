@@ -1,7 +1,7 @@
 package jjfactory.mall.business.service.board;
 
-import jjfactory.mall.business.response.board.BoardDetailRes;
-import jjfactory.mall.business.response.board.BoardRes;
+import jjfactory.mall.business.response.content.ContentDetailRes;
+import jjfactory.mall.business.response.content.ContentRes;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
@@ -13,12 +13,12 @@ import org.springframework.transaction.annotation.Transactional;
 public class BoardService {
 
     @Transactional(readOnly = true)
-    public BoardDetailRes findBoard(){
+    public ContentDetailRes findBoard(){
         return null;
     }
 
     @Transactional(readOnly = true)
-    public Page<BoardRes> findAllBoards(){
+    public Page<ContentRes> findAllBoards(){
         return null;
     }
 

@@ -8,4 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public class CommentDetailRes {
+    private Long commentId;
+    private Long userId;
+    private String content;
 }

@@ -16,6 +16,9 @@ public class ContentImage extends BaseTimeEntity {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @JoinColumn(name = "content_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Content content;
 
     @Enumerated(EnumType.STRING)
     private DeleteStatus deleteStatus;

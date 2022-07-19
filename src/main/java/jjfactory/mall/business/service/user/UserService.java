@@ -1,7 +1,5 @@
 package jjfactory.mall.business.service.user;
 
-import jjfactory.mall.business.response.board.BoardDetailRes;
-import jjfactory.mall.business.response.board.BoardRes;
 import jjfactory.mall.business.response.user.UserDetailRes;
 import jjfactory.mall.business.response.user.UserRes;
 import lombok.RequiredArgsConstructor;

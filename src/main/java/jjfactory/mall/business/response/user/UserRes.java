@@ -8,4 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public class UserRes {
+    private Long userId;
+    private String email;
+    private String password;
+    private String name;
 }

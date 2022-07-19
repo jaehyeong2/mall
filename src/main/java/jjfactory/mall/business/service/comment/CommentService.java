@@ -1,7 +1,5 @@
 package jjfactory.mall.business.service.comment;
 
-import jjfactory.mall.business.response.board.BoardDetailRes;
-import jjfactory.mall.business.response.board.BoardRes;
 import jjfactory.mall.business.response.comment.CommentDetailRes;
 import jjfactory.mall.business.response.comment.CommentRes;
 import lombok.RequiredArgsConstructor;

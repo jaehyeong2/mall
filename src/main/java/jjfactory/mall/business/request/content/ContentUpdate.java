@@ -1,4 +1,4 @@
-package jjfactory.mall.business.request.board;
+package jjfactory.mall.business.request.content;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,5 +7,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class BoardCreate {
+public class ContentUpdate {
+    private String title;
+    private String content;
 }
