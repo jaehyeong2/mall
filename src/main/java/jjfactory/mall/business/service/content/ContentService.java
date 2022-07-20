@@ -1,4 +1,4 @@
-package jjfactory.mall.business.service.board;
+package jjfactory.mall.business.service.content;
 
 import jjfactory.mall.business.response.content.ContentDetailRes;
 import jjfactory.mall.business.response.content.ContentRes;
@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 @Transactional
 @Service
-public class BoardService {
+public class ContentService {
 
     @Transactional(readOnly = true)
     public ContentDetailRes findBoard(){
