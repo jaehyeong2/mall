@@ -22,6 +22,8 @@ public class User extends BaseTimeEntity {
     private String password;
     private String email;
 
+    private int followCount;
+
     @Enumerated(EnumType.STRING)
     private Gender gender;
 

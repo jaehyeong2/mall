@@ -13,12 +13,12 @@ import org.springframework.transaction.annotation.Transactional;
 public class ContentService {
 
     @Transactional(readOnly = true)
-    public ContentDetailRes findBoard(){
+    public ContentDetailRes findContent(){
         return null;
     }
 
     @Transactional(readOnly = true)
-    public Page<ContentRes> findAllBoards(){
+    public Page<ContentRes> findAllContents(){
         return null;
     }
 
